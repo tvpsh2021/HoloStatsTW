@@ -30,13 +30,14 @@
     <mat-icon svgIcon="open_in_new"></mat-icon>
   </a>
 </div>
-
-<div
-  class="title"
-  title="{{ stream.title }}"
-  ellipsis
-  [ellipsis-content]="stream.title"
-></div>
+<a class="title-link" href="{{ stream.status === 'scheduled' ? '#' : ('/stream/' + stream.streamId) }}">
+  <div
+    class="title"
+    title="{{ stream.title }}"
+    ellipsis
+    [ellipsis-content]="stream.title"
+  ></div>
+</a>
 
 <ng-container [ngSwitch]="stream.status">
   <div class="viewers current" *ngSwitchCase="'live'">

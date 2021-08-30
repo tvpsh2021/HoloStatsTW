@@ -30,6 +30,19 @@
     word-break: keep-all;
     text-align: center;
   }
+  .mat-column-name a.channel-link {
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+  }
+  .mat-column-name a.channel-link:active {
+    color: rgba(0,0,0,.87);
+  }
+  .mat-column-name a.channel-link:visited {
+    color: rgba(0,0,0,.87);
+  }
+  .mat-column-name a.channel-link:hover {
+    color: rgba(0,0,0,.87);
+  }
 
   $columns: subscriberCount, dailySubscriberCount, weeklySubscriberCount,
     monthlySubscriberCount, viewCount, dailyViewCount, weeklyViewCount,

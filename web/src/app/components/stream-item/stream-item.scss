@@ -84,6 +84,20 @@
     }
   }
 
+  a.title-link {
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+  }
+  a.title-link:active {
+    color: rgba(0,0,0,.87);
+  }
+  a.title-link:visited {
+    color: rgba(0,0,0,.87);
+  }
+  a.title-link:hover {
+    color: rgba(0,0,0,.87);
+  }
+
   .title {
     line-height: 16px;
     height: 32px;
